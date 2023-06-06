@@ -1,0 +1,17 @@
+.dialog-box-enter {
+  opacity: 0;
+}
+
+.dialog-box-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.dialog-box-exit {
+  opacity: 1;
+}
+
+.dialog-box-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}
